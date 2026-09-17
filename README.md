@@ -9,8 +9,7 @@
 |---|---|
 | Nama | Ahmad Ramadhani R |
 | NIM | F1D02310102 |
-| Program Studi | Teknik Informatika |
-| Universitas | Universitas Mataram |
+
 
 ## Deskripsi
 
@@ -40,23 +39,23 @@ Pastikan Node.js dan npm telah terpasang pada perangkat.
 
 Install seluruh dependensi menggunakan perintah berikut:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 Jika ingin memasang package secara manual:
 
-\`\`\`bash
+```bash
 npm install chalk cowsay figlet gradient-string dayjs boxen
-\`\`\`
+```
 
 ## Cara Menjalankan Program
 
 Jalankan program menggunakan perintah berikut:
 
-\`\`\`bash
+```bash
 node index.js
-\`\`\`
+```
 
 Program akan menampilkan informasi mahasiswa, umur, pesan motivasi, dan nama dalam bentuk ASCII art pada terminal.
 
@@ -66,7 +65,7 @@ Program akan menampilkan informasi mahasiswa, umur, pesan motivasi, dan nama dal
 
 ## Struktur Project
 
-\`\`\`
+```
 T1-Node-Plugin/
 ├── node_modules/
 ├── screenshot/
@@ -75,4 +74,4 @@ T1-Node-Plugin/
 ├── package.json
 ├── package-lock.json
 └── README.md
-\`\`\`
+```
